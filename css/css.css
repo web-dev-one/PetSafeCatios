@@ -38,6 +38,9 @@ body{
     font-style: normal;
   }
 
+.fs{
+  font-size: x-small;
+}
   .parent{
     padding: 10px
   }
@@ -48,4 +51,78 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .catioBlend{
+    background-image: url('../pics/catio.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    mix-blend-mode: hard-light;
+  }
+
+  .catioScottsdaleBlend{
+    background-image: url('../pics/Catio36FTX16X7.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    mix-blend-mode: hard-light;
+  }
+
+  .inline{
+    display: inline-flex;
+    text-wrap: nowrap;
+  }
+
+  .ws{
+    width: 50% !important;
+  }
+  .ha{
+    height: auto !important;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #Links {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #008080;
+    color: white;
+  }
+
+  .container > p {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
   }
