@@ -16,9 +16,12 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    width: 99%;
+    width: 98%;
     /* margin: auto; */
     background-color: rgb(150, 47, 246);
+    justify-content: last baseline;
+    margin: auto;
+
 }
 
 .center{
@@ -46,7 +49,7 @@ body{
   }
 
   .element{
-    width: 250px;
+    width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-left: auto;
@@ -125,4 +128,8 @@ body{
     font-weight: 700;
     font-style: normal;
     color: white;
+  }
+
+  .ninesix{
+      width: 96% !important;
   }
