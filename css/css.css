@@ -132,4 +132,20 @@ body{
 
   .ninesix{
       width: 96% !important;
+  } 
+
+  .w{
+    color: white;
+  }
+
+  .fl{
+    font-size: x-large;
+  }
+
+  .l{
+    font-weight: bold;
+    font-size: larger;
+  }
+  .wrap{
+    text-wrap: wrap;
   }

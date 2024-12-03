@@ -30,10 +30,10 @@ const phrases = ["We Protect Your Cats", "Guaranteed Protection", "Protection Yo
 let change = document.getElementById('change');
 let i = 0;
 
-(function (){
-  window.setTimeout(changeText(), 4000);
-  i++
-})()
+// (function (){
+//   window.setTimeout(changeText(), 4000);
+//   i++
+// })()
 
 function changeText(){}{
     change.textContent = phrases[i]
