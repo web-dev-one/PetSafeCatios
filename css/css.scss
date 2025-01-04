@@ -1,0 +1,10 @@
+$small: 300px;
+$medium: 750px;
+
+@media only screen and (min-width: $small) and (max-width: $medium) {
+    .smaller{
+        font-size: medium !important;
+        color: rgb(255, 205, 41) !important;
+    }
+    
+}
